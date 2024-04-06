@@ -29,14 +29,18 @@ GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada 
 git clone https://github.com/seu-usuario/meu_primeiro_projeto.git
 
 ## Execute o Terraform para provisionar a infraestrutura na AWS:
-cd meu_primeiro_projeto/terraform
-terraform init
-terraform apply
+cd meu_primeiro_projeto/terraform;
+
+terraform init;
+
+terraform apply;
 
 ## Implante a aplicação Docker no Kubernetes:
-cd ../kubernetes
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
+cd ../kubernetes;
+
+kubectl apply -f deployment.yaml;
+
+kubectl apply -f service.yaml;
 
 ## Acesse a aplicação:
 Após a implantação bem-sucedida, você poderá acessar sua aplicação por meio do IP público da instância EC2 criada na AWS.
