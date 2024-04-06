@@ -6,7 +6,7 @@ variable "aws_region" {
 
 variable "ec2_ami" {
   description = "ID da AMI da instância EC2"
-  default     = "ami-0c55b159cbfafe1f0"
+  default     = "ami-051f8a213df8bc089"
 }
 
 variable "ec2_instance_type" {
