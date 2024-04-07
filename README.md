@@ -6,7 +6,7 @@
 
 Este é um projeto que demonstra o uso de diversas tecnologias, desde a provisionamento de infraestrutura na AWS até a implantação de uma aplicação em um cluster Kubernetes, passando pela construção de imagens Docker e o controle de versão no GitHub.
 
-Tecnologias Utilizadas
+## Tecnologias Utilizadas:
 
 ## Terraform
 Terraform é uma ferramenta de infraestrutura como código que permite provisionar e gerenciar recursos de infraestrutura de forma declarativa. Neste projeto, usamos o Terraform para criar e gerenciar recursos na AWS, como instâncias EC2.
